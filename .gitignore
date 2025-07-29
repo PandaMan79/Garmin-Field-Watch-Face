@@ -1,0 +1,41 @@
+# Garmin Connect IQ Build Files
+*.iq
+*.prg
+*.prg.debug.xml
+
+# Build directories
+bin/
+gen/
+internal-mir/
+external-mir/
+
+# Developer keys (IMPORTANT: Keep these private!)
+developer_key.der
+developer_key.pem
+*.der
+*.pem
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Connect IQ specific
+*.mir

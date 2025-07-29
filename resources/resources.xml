@@ -1,0 +1,14 @@
+<resources>
+    <strings>
+        <string id="AppName">Fenix Watch Face</string>
+    </strings>
+    
+    <layouts>
+        <layout id="WatchFace">
+        </layout>
+    </layouts>
+    
+    <drawables>
+        <bitmap id="LauncherIcon" filename="drawables/launcher_icon.png" />
+    </drawables>
+</resources>

@@ -1,0 +1,4 @@
+project.manifest = manifest.xml
+
+fenix6pro.sourcePath = source
+fenix6pro.resourcePath = resources
