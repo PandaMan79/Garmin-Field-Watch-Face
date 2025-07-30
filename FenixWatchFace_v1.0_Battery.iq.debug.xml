@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceApp.mc" id="1" lineNum="5" parent="globals/FenixWatchFaceApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceDelegate.mc" id="2" lineNum="4" parent="globals/FenixWatchFaceDelegate" pc="268435479" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/gen/006-B3290-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435498" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="4" lineNum="9" parent="globals/FenixWatchFaceView" pc="268435522" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceApp.mc" id="5" lineNum="12" parent="globals/FenixWatchFaceApp" pc="268435541" symbol="onStart"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceApp.mc" id="6" lineNum="20" parent="globals/FenixWatchFaceApp" pc="268435544" symbol="getInitialView"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceApp.mc" id="6" lineNum="21" parent="globals/FenixWatchFaceApp" pc="268435546" symbol="getInitialView"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceApp.mc" id="7" lineNum="7" parent="globals/FenixWatchFaceApp" pc="268435613" symbol="initialize"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceApp.mc" id="7" lineNum="8" parent="globals/FenixWatchFaceApp" pc="268435615" symbol="initialize"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceApp.mc" id="8" lineNum="16" parent="globals/FenixWatchFaceApp" pc="268435634" symbol="onStop"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceDelegate.mc" id="9" lineNum="6" parent="globals/FenixWatchFaceDelegate" pc="268435637" symbol="initialize"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceDelegate.mc" id="9" lineNum="7" parent="globals/FenixWatchFaceDelegate" pc="268435639" symbol="initialize"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceDelegate.mc" id="10" lineNum="10" parent="globals/FenixWatchFaceDelegate" pc="268435658" symbol="onPowerBudgetExceeded"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceDelegate.mc" id="10" lineNum="11" parent="globals/FenixWatchFaceDelegate" pc="268435660" symbol="onPowerBudgetExceeded"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceDelegate.mc" id="10" lineNum="12" parent="globals/FenixWatchFaceDelegate" pc="268435690" symbol="onPowerBudgetExceeded"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="13" lineNum="20" parent="globals/FenixWatchFaceView" pc="268435721" symbol="onLayout"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="13" lineNum="21" parent="globals/FenixWatchFaceView" pc="268435723" symbol="onLayout"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="13" lineNum="23" parent="globals/FenixWatchFaceView" pc="268435764" symbol="onLayout"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="13" lineNum="24" parent="globals/FenixWatchFaceView" pc="268435789" symbol="onLayout"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="13" lineNum="25" parent="globals/FenixWatchFaceView" pc="268435814" symbol="onLayout"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="13" lineNum="26" parent="globals/FenixWatchFaceView" pc="268435885" symbol="onLayout"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="270" parent="globals/FenixWatchFaceView" pc="268435917" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="271" parent="globals/FenixWatchFaceView" pc="268435921" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="272" parent="globals/FenixWatchFaceView" pc="268435976" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="275" parent="globals/FenixWatchFaceView" pc="268436010" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="276" parent="globals/FenixWatchFaceView" pc="268436026" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="277" parent="globals/FenixWatchFaceView" pc="268436057" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="280" parent="globals/FenixWatchFaceView" pc="268436088" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="281" parent="globals/FenixWatchFaceView" pc="268436110" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="282" parent="globals/FenixWatchFaceView" pc="268436127" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="285" parent="globals/FenixWatchFaceView" pc="268436159" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="286" parent="globals/FenixWatchFaceView" pc="268436181" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="287" parent="globals/FenixWatchFaceView" pc="268436198" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="290" parent="globals/FenixWatchFaceView" pc="268436230" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="291" parent="globals/FenixWatchFaceView" pc="268436246" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="292" parent="globals/FenixWatchFaceView" pc="268436277" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="295" parent="globals/FenixWatchFaceView" pc="268436308" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="296" parent="globals/FenixWatchFaceView" pc="268436330" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="297" parent="globals/FenixWatchFaceView" pc="268436347" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="300" parent="globals/FenixWatchFaceView" pc="268436379" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="301" parent="globals/FenixWatchFaceView" pc="268436401" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="302" parent="globals/FenixWatchFaceView" pc="268436418" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="306" parent="globals/FenixWatchFaceView" pc="268436450" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="307" parent="globals/FenixWatchFaceView" pc="268436467" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="312" parent="globals/FenixWatchFaceView" pc="268436471" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="313" parent="globals/FenixWatchFaceView" pc="268436488" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="315" parent="globals/FenixWatchFaceView" pc="268436492" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="318" parent="globals/FenixWatchFaceView" pc="268436508" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="319" parent="globals/FenixWatchFaceView" pc="268436513" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="320" parent="globals/FenixWatchFaceView" pc="268436547" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="321" parent="globals/FenixWatchFaceView" pc="268436569" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="322" parent="globals/FenixWatchFaceView" pc="268436586" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="323" parent="globals/FenixWatchFaceView" pc="268436602" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="324" parent="globals/FenixWatchFaceView" pc="268436633" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="325" parent="globals/FenixWatchFaceView" pc="268436664" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="329" parent="globals/FenixWatchFaceView" pc="268436699" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="330" parent="globals/FenixWatchFaceView" pc="268436721" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="331" parent="globals/FenixWatchFaceView" pc="268436754" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="332" parent="globals/FenixWatchFaceView" pc="268436776" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="14" lineNum="333" parent="globals/FenixWatchFaceView" pc="268436793" symbol="drawHands"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="15" lineNum="78" parent="globals/FenixWatchFaceView" pc="268436827" symbol="drawBackground"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="15" lineNum="80" parent="globals/FenixWatchFaceView" pc="268436829" symbol="drawBackground"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="15" lineNum="81" parent="globals/FenixWatchFaceView" pc="268436851" symbol="drawBackground"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="15" lineNum="84" parent="globals/FenixWatchFaceView" pc="268436887" symbol="drawBackground"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="15" lineNum="85" parent="globals/FenixWatchFaceView" pc="268436909" symbol="drawBackground"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="15" lineNum="86" parent="globals/FenixWatchFaceView" pc="268436926" symbol="drawBackground"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="175" parent="globals/FenixWatchFaceView" pc="268436969" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="177" parent="globals/FenixWatchFaceView" pc="268436973" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="178" parent="globals/FenixWatchFaceView" pc="268436990" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="180" parent="globals/FenixWatchFaceView" pc="268436997" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="181" parent="globals/FenixWatchFaceView" pc="268437017" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="185" parent="globals/FenixWatchFaceView" pc="268437039" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="186" parent="globals/FenixWatchFaceView" pc="268437064" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="189" parent="globals/FenixWatchFaceView" pc="268437074" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="190" parent="globals/FenixWatchFaceView" pc="268437081" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="191" parent="globals/FenixWatchFaceView" pc="268437088" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="192" parent="globals/FenixWatchFaceView" pc="268437101" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="195" parent="globals/FenixWatchFaceView" pc="268437114" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="196" parent="globals/FenixWatchFaceView" pc="268437136" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="197" parent="globals/FenixWatchFaceView" pc="268437153" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="200" parent="globals/FenixWatchFaceView" pc="268437173" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="203" parent="globals/FenixWatchFaceView" pc="268437211" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="204" parent="globals/FenixWatchFaceView" pc="268437239" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="205" parent="globals/FenixWatchFaceView" pc="268437250" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="206" parent="globals/FenixWatchFaceView" pc="268437275" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="207" parent="globals/FenixWatchFaceView" pc="268437286" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="209" parent="globals/FenixWatchFaceView" pc="268437311" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="212" parent="globals/FenixWatchFaceView" pc="268437333" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="213" parent="globals/FenixWatchFaceView" pc="268437344" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="217" parent="globals/FenixWatchFaceView" pc="268437385" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="218" parent="globals/FenixWatchFaceView" pc="268437407" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="17" lineNum="219" parent="globals/FenixWatchFaceView" pc="268437426" symbol="drawBattery"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="89" parent="globals/FenixWatchFaceView" pc="268437461" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="90" parent="globals/FenixWatchFaceView" pc="268437465" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="93" parent="globals/FenixWatchFaceView" pc="268437487" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="94" parent="globals/FenixWatchFaceView" pc="268437651" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="96" parent="globals/FenixWatchFaceView" pc="268437815" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="97" parent="globals/FenixWatchFaceView" pc="268437833" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="100" parent="globals/FenixWatchFaceView" pc="268437861" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="101" parent="globals/FenixWatchFaceView" pc="268437877" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="102" parent="globals/FenixWatchFaceView" pc="268437908" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="105" parent="globals/FenixWatchFaceView" pc="268437939" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="106" parent="globals/FenixWatchFaceView" pc="268437955" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="107" parent="globals/FenixWatchFaceView" pc="268437986" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="109" parent="globals/FenixWatchFaceView" pc="268438017" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="110" parent="globals/FenixWatchFaceView" pc="268438039" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="112" parent="globals/FenixWatchFaceView" pc="268438050" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="113" parent="globals/FenixWatchFaceView" pc="268438057" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="120" parent="globals/FenixWatchFaceView" pc="268438249" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="121" parent="globals/FenixWatchFaceView" pc="268438256" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="126" parent="globals/FenixWatchFaceView" pc="268438312" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="127" parent="globals/FenixWatchFaceView" pc="268438326" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="128" parent="globals/FenixWatchFaceView" pc="268438348" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="129" parent="globals/FenixWatchFaceView" pc="268438355" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="130" parent="globals/FenixWatchFaceView" pc="268438397" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="132" parent="globals/FenixWatchFaceView" pc="268438407" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="135" parent="globals/FenixWatchFaceView" pc="268438414" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="137" parent="globals/FenixWatchFaceView" pc="268438430" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="141" parent="globals/FenixWatchFaceView" pc="268438476" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="142" parent="globals/FenixWatchFaceView" pc="268438492" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="143" parent="globals/FenixWatchFaceView" pc="268438523" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="146" parent="globals/FenixWatchFaceView" pc="268438554" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="147" parent="globals/FenixWatchFaceView" pc="268438568" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="148" parent="globals/FenixWatchFaceView" pc="268438590" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="149" parent="globals/FenixWatchFaceView" pc="268438597" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="18" lineNum="150" parent="globals/FenixWatchFaceView" pc="268438613" symbol="drawHourMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="19" lineNum="15" parent="globals/FenixWatchFaceView" pc="268438673" symbol="initialize"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="19" lineNum="16" parent="globals/FenixWatchFaceView" pc="268438675" symbol="initialize"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="36" parent="globals/FenixWatchFaceView" pc="268438694" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="38" parent="globals/FenixWatchFaceView" pc="268438698" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="39" parent="globals/FenixWatchFaceView" pc="268438720" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="42" parent="globals/FenixWatchFaceView" pc="268438732" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="43" parent="globals/FenixWatchFaceView" pc="268438749" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="46" parent="globals/FenixWatchFaceView" pc="268438786" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="49" parent="globals/FenixWatchFaceView" pc="268438800" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="52" parent="globals/FenixWatchFaceView" pc="268438814" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="55" parent="globals/FenixWatchFaceView" pc="268438828" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="58" parent="globals/FenixWatchFaceView" pc="268438842" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="21" lineNum="61" parent="globals/FenixWatchFaceView" pc="268438858" symbol="onUpdate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="222" parent="globals/FenixWatchFaceView" pc="268438875" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="224" parent="globals/FenixWatchFaceView" pc="268438879" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="225" parent="globals/FenixWatchFaceView" pc="268438904" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="228" parent="globals/FenixWatchFaceView" pc="268438914" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="229" parent="globals/FenixWatchFaceView" pc="268439013" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="230" parent="globals/FenixWatchFaceView" pc="268439020" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="233" parent="globals/FenixWatchFaceView" pc="268439027" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="234" parent="globals/FenixWatchFaceView" pc="268439031" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="235" parent="globals/FenixWatchFaceView" pc="268439037" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="238" parent="globals/FenixWatchFaceView" pc="268439077" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="241" parent="globals/FenixWatchFaceView" pc="268439084" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="242" parent="globals/FenixWatchFaceView" pc="268439097" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="244" parent="globals/FenixWatchFaceView" pc="268439125" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="250" parent="globals/FenixWatchFaceView" pc="268439141" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="251" parent="globals/FenixWatchFaceView" pc="268439154" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="252" parent="globals/FenixWatchFaceView" pc="268439164" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="253" parent="globals/FenixWatchFaceView" pc="268439204" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="256" parent="globals/FenixWatchFaceView" pc="268439229" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="263" parent="globals/FenixWatchFaceView" pc="268439248" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="266" parent="globals/FenixWatchFaceView" pc="268439261" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="22" lineNum="267" parent="globals/FenixWatchFaceView" pc="268439283" symbol="drawDayDate"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="155" parent="globals/FenixWatchFaceView" pc="268439330" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="156" parent="globals/FenixWatchFaceView" pc="268439334" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="157" parent="globals/FenixWatchFaceView" pc="268439356" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="159" parent="globals/FenixWatchFaceView" pc="268439373" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="160" parent="globals/FenixWatchFaceView" pc="268439391" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="161" parent="globals/FenixWatchFaceView" pc="268439408" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="162" parent="globals/FenixWatchFaceView" pc="268439436" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="163" parent="globals/FenixWatchFaceView" pc="268439452" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="165" parent="globals/FenixWatchFaceView" pc="268439468" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="166" parent="globals/FenixWatchFaceView" pc="268439499" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="167" parent="globals/FenixWatchFaceView" pc="268439530" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="168" parent="globals/FenixWatchFaceView" pc="268439561" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/source/FenixWatchFaceView.mc" id="23" lineNum="170" parent="globals/FenixWatchFaceView" pc="268439592" symbol="drawMinuteMarkers"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/gen/006-B3290-00/source/Rez.mcgen" id="24" lineNum="13" parent="globals/Rez/Layouts" pc="268439629" symbol="WatchFace"/>
+        <entry filename="/Users/carlintegrand.co.za/Library/CloudStorage/OneDrive-SharedLibraries-integrand.co.za/Power BI - Documents/Garmin Field Watch Face/gen/006-B3290-00/source/Rez.mcgen" id="24" lineNum="14" parent="globals/Rez/Layouts" pc="268439639" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8390098" method="true" symbol="onPowerBudgetExceeded"/>
+        <entry field="true" id="8389759" symbol="radius"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="19" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8" object="true" symbol="FenixWatchFaceView"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="14" method="true" symbol="drawDayDate"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="13" method="true" symbol="drawBattery"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="12" method="true" symbol="drawBackground"/>
+        <entry id="16" method="true" symbol="drawHourMarkers"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="18" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="6" object="true" symbol="FenixWatchFaceApp"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="7" object="true" symbol="FenixWatchFaceDelegate"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="11" symbol="centerY"/>
+        <entry field="true" id="10" symbol="centerX"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="17" method="true" symbol="drawMinuteMarkers"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="15" method="true" symbol="drawHands"/>
+        <entry id="9" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435720" name="powerInfo" stackId="1" startPc="268435658"/>
+        <entry arg="true" endPc="268435916" name="dc" stackId="1" startPc="268435721"/>
+        <entry arg="true" endPc="268436826" name="dc" stackId="1" startPc="268435917"/>
+        <entry arg="true" endPc="268436826" name="clockTime" stackId="2" startPc="268435917"/>
+        <entry endPc="268436825" name="hourAngle" stackId="3" startPc="268435921"/>
+        <entry endPc="268436825" name="minAngle" stackId="4" startPc="268435921"/>
+        <entry endPc="268436825" name="hourLength" stackId="5" startPc="268435921"/>
+        <entry endPc="268436825" name="hourX" stackId="6" startPc="268435921"/>
+        <entry endPc="268436825" name="hourY" stackId="7" startPc="268435921"/>
+        <entry endPc="268436825" name="minLength" stackId="8" startPc="268435921"/>
+        <entry endPc="268436825" name="minX" stackId="9" startPc="268435921"/>
+        <entry endPc="268436825" name="minY" stackId="10" startPc="268435921"/>
+        <entry endPc="268436825" name="deviceSettings" stackId="11" startPc="268435921"/>
+        <entry endPc="268436825" name="showSecondHand" stackId="12" startPc="268435921"/>
+        <entry endPc="268436502" name="ex" stackId="13" startPc="268436488"/>
+        <entry endPc="268436695" name="secAngle" stackId="14" startPc="268436513"/>
+        <entry endPc="268436695" name="secLength" stackId="15" startPc="268436513"/>
+        <entry endPc="268436695" name="secX" stackId="16" startPc="268436513"/>
+        <entry endPc="268436695" name="secY" stackId="17" startPc="268436513"/>
+        <entry arg="true" endPc="268436968" name="dc" stackId="1" startPc="268436827"/>
+        <entry arg="true" endPc="268437460" name="dc" stackId="1" startPc="268436969"/>
+        <entry endPc="268437459" name="stats" stackId="2" startPc="268436973"/>
+        <entry endPc="268437459" name="batteryLevel" stackId="3" startPc="268436973"/>
+        <entry endPc="268437459" name="batteryY" stackId="4" startPc="268436973"/>
+        <entry endPc="268437459" name="batteryX" stackId="5" startPc="268436973"/>
+        <entry endPc="268437459" name="batteryWidth" stackId="6" startPc="268436973"/>
+        <entry endPc="268437459" name="batteryHeight" stackId="7" startPc="268436973"/>
+        <entry endPc="268437459" name="batteryX1" stackId="8" startPc="268436973"/>
+        <entry endPc="268437459" name="batteryY1" stackId="9" startPc="268436973"/>
+        <entry endPc="268437459" name="fillWidth" stackId="10" startPc="268436973"/>
+        <entry endPc="268437459" name="batteryText" stackId="11" startPc="268436973"/>
+        <entry arg="true" endPc="268438672" name="dc" stackId="1" startPc="268437461"/>
+        <entry endPc="268438671" name="numbers" stackId="2" startPc="268437465"/>
+        <entry endPc="268438671" name="hour24" stackId="3" startPc="268437465"/>
+        <entry endPc="268438671" name="i" stackId="4" startPc="268437833"/>
+        <entry endPc="268438658" name="angle" stackId="5" startPc="268437833"/>
+        <entry endPc="268438658" name="numRadius" stackId="6" startPc="268437833"/>
+        <entry endPc="268438658" name="x" stackId="7" startPc="268437833"/>
+        <entry endPc="268438658" name="y" stackId="8" startPc="268437833"/>
+        <entry endPc="268438658" name="markerRadius" stackId="9" startPc="268437833"/>
+        <entry endPc="268438658" name="markerX" stackId="10" startPc="268437833"/>
+        <entry endPc="268438658" name="markerY" stackId="11" startPc="268437833"/>
+        <entry endPc="268438245" name="triangleSize" stackId="12" startPc="268438050"/>
+        <entry endPc="268438311" name="squareSize" stackId="13" startPc="268438249"/>
+        <entry endPc="268438472" name="font" stackId="14" startPc="268438326"/>
+        <entry endPc="268438472" name="text" stackId="15" startPc="268438326"/>
+        <entry endPc="268438658" name="hour24Radius" stackId="16" startPc="268437833"/>
+        <entry endPc="268438658" name="x24" stackId="17" startPc="268437833"/>
+        <entry endPc="268438658" name="y24" stackId="18" startPc="268437833"/>
+        <entry endPc="268438655" name="smallFont" stackId="19" startPc="268438568"/>
+        <entry endPc="268438655" name="text24" stackId="20" startPc="268438568"/>
+        <entry arg="true" endPc="268438874" name="dc" stackId="1" startPc="268438694"/>
+        <entry endPc="268438873" name="now" stackId="2" startPc="268438698"/>
+        <entry endPc="268438873" name="today" stackId="3" startPc="268438698"/>
+        <entry arg="true" endPc="268439329" name="dc" stackId="1" startPc="268438875"/>
+        <entry arg="true" endPc="268439329" name="today" stackId="2" startPc="268438875"/>
+        <entry endPc="268439328" name="dateX" stackId="3" startPc="268438879"/>
+        <entry endPc="268439328" name="dateY" stackId="4" startPc="268438879"/>
+        <entry endPc="268439328" name="dayNames" stackId="5" startPc="268438879"/>
+        <entry endPc="268439328" name="dayText" stackId="6" startPc="268438879"/>
+        <entry endPc="268439328" name="dateText" stackId="7" startPc="268438879"/>
+        <entry endPc="268439328" name="info" stackId="8" startPc="268438879"/>
+        <entry endPc="268439135" name="ex" stackId="9" startPc="268439125"/>
+        <entry endPc="268439219" name="dow" stackId="10" startPc="268439154"/>
+        <entry endPc="268439239" name="ex" stackId="11" startPc="268439229"/>
+        <entry endPc="268439328" name="fullText" stackId="12" startPc="268438879"/>
+        <entry arg="true" endPc="268439628" name="dc" stackId="1" startPc="268439330"/>
+        <entry endPc="268439627" name="i" stackId="2" startPc="268439391"/>
+        <entry endPc="268439611" name="angle" stackId="3" startPc="268439408"/>
+        <entry endPc="268439611" name="innerRadius" stackId="4" startPc="268439408"/>
+        <entry endPc="268439611" name="outerRadius" stackId="5" startPc="268439408"/>
+        <entry endPc="268439611" name="x1" stackId="6" startPc="268439408"/>
+        <entry endPc="268439611" name="y1" stackId="7" startPc="268439408"/>
+        <entry endPc="268439611" name="x2" stackId="8" startPc="268439408"/>
+        <entry endPc="268439611" name="y2" stackId="9" startPc="268439408"/>
+        <entry arg="true" endPc="268439645" name="dc" stackId="1" startPc="268439629"/>
+    </localVars>
+    <deviceInfo deviceVersion="c3c85f7bae6fb4aafa9acce2937cf0e1d7b137f1" partNumber="006-B3290-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/FenixWatchFaceApp" offset="134" parentId="globals" symbolId="FenixWatchFaceApp" type="class"/>
+        <dataEntry label="globals/FenixWatchFaceDelegate" offset="205" parentId="globals" symbolId="FenixWatchFaceDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="260" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/FenixWatchFaceView" offset="315" parentId="globals" symbolId="FenixWatchFaceView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="482" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="521" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="560" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="FenixWatchFaceApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435497" name="&lt;init&gt;" parent="FenixWatchFaceDelegate" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="Rez" startPc="268435498">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435540" name="&lt;init&gt;" parent="FenixWatchFaceView" startPc="268435522">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435543" name="onStart" parent="FenixWatchFaceApp" startPc="268435541">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435612" name="getInitialView" parent="FenixWatchFaceApp" startPc="268435544">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435633" name="initialize" parent="FenixWatchFaceApp" startPc="268435613">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435636" name="onStop" parent="FenixWatchFaceApp" startPc="268435634">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435657" name="initialize" parent="FenixWatchFaceDelegate" startPc="268435637">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435720" name="onPowerBudgetExceeded" parent="FenixWatchFaceDelegate" startPc="268435658">
+            <param id="powerInfo"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="FenixWatchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="FenixWatchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435916" name="onLayout" parent="FenixWatchFaceView" startPc="268435721">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436826" name="drawHands" parent="FenixWatchFaceView" startPc="268435917">
+            <param id="dc"/>
+            <param id="clockTime"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436968" name="drawBackground" parent="FenixWatchFaceView" startPc="268436827">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="FenixWatchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437460" name="drawBattery" parent="FenixWatchFaceView" startPc="268436969">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438672" name="drawHourMarkers" parent="FenixWatchFaceView" startPc="268437461">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438693" name="initialize" parent="FenixWatchFaceView" startPc="268438673">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="FenixWatchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438874" name="onUpdate" parent="FenixWatchFaceView" startPc="268438694">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439329" name="drawDayDate" parent="FenixWatchFaceView" startPc="268438875">
+            <param id="dc"/>
+            <param id="today"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439628" name="drawMinuteMarkers" parent="FenixWatchFaceView" startPc="268439330">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439645" name="WatchFace" parent="Layouts" startPc="268439629">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

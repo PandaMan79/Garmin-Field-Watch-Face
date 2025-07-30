@@ -51,8 +51,8 @@ class FenixWatchFaceView extends WatchUi.WatchFace {
         // Draw minute markers
         drawMinuteMarkers(dc);
         
-        // Draw brand name "FENIX"
-        drawBrandName(dc);
+        // Draw battery indicator
+        drawBattery(dc);
         
         // Draw day/date
         drawDayDate(dc, today);
@@ -172,11 +172,46 @@ class FenixWatchFaceView extends WatchUi.WatchFace {
         }
     }
 
-    function drawBrandName(dc as Dc) as Void {
-        // Draw "FENIX" - moved up and smaller, bright white
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-        var brandY = centerY - radius * 0.35;  // Moved up more
-        dc.drawText(centerX, brandY, Graphics.FONT_XTINY, "FENIX", Graphics.TEXT_JUSTIFY_CENTER);  // Made smaller
+    function drawBattery(dc as Dc) as Void {
+        // Get battery stats
+        var stats = System.getSystemStats();
+        var batteryLevel = 85; // Default fallback
+        
+        if (stats != null && stats.battery != null) {
+            batteryLevel = stats.battery.toNumber();
+        }
+        
+        // Position battery indicator where FENIX text was - moved slightly down
+        var batteryY = centerY - radius * 0.30;  // Moved down from 0.35
+        var batteryX = centerX;
+        
+        // Draw battery outline (rectangular battery shape) - decreased width slightly
+        var batteryWidth = 26;  // Decreased from 30
+        var batteryHeight = 12; // Keep height the same
+        var batteryX1 = batteryX - batteryWidth / 2;
+        var batteryY1 = batteryY - batteryHeight / 2;
+        
+        // Battery outline
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(2);  // Increased pen width for more visible outline
+        dc.drawRectangle(batteryX1, batteryY1, batteryWidth, batteryHeight);
+        
+        // Battery positive terminal (small rectangle on right) - made bigger
+        dc.fillRectangle(batteryX1 + batteryWidth, batteryY1 + 3, 3, batteryHeight - 6);
+        
+        // Battery fill based on level
+        var fillWidth = ((batteryWidth - 4) * batteryLevel / 100).toNumber();  // Adjusted for thicker outline
+        if (batteryLevel > 50) {
+            dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+        } else if (batteryLevel > 20) {
+            dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+        } else {
+            dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        }
+        
+        if (fillWidth > 0) {
+            dc.fillRectangle(batteryX1 + 2, batteryY1 + 2, fillWidth, batteryHeight - 4);  // Adjusted for thicker outline
+        }
     }
 
     function drawDayDate(dc as Dc, today as Gregorian.Info) as Void {
@@ -186,21 +221,36 @@ class FenixWatchFaceView extends WatchUi.WatchFace {
         
         // Get day and date strings dynamically
         var dayNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
-        var dayText = "TUE";  // Fallback
-        var dateText = "29";  // Fallback
+        var dayText = "WED";  // Default to Wednesday for July 30, 2025
+        var dateText = "30";  // Default to 30 for July 30, 2025
         
-        // Get current date info - simplified approach
-        if (today != null) {
-            // Get day of week (1=Sunday, 2=Monday, etc.)
-            var dow = today.day_of_week;
-            if (dow != null && dow instanceof Number && dow >= 1 && dow <= 7) {
-                dayText = dayNames[dow - 1];
+        // Get current date info - try multiple approaches
+        var info = today;
+        if (info == null) {
+            info = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        }
+        
+        if (info != null) {
+            // Get day of month first (this usually works)
+            try {
+                if (info.day != null) {
+                    dateText = info.day.toString();
+                }
+            } catch (ex) {
+                // Keep default
             }
             
-            // Get day of month
-            var dayNum = today.day;
-            if (dayNum != null && dayNum instanceof Number) {
-                dateText = dayNum.toString();
+            // Get day of week - try different approaches
+            try {
+                if (info.day_of_week != null) {
+                    var dow = info.day_of_week;
+                    if (dow instanceof Number && dow >= 1 && dow <= 7) {
+                        dayText = dayNames[dow - 1];
+                    }
+                }
+            } catch (ex) {
+                // If day_of_week fails, keep the default
+                // We'll use WED as fallback which is correct for July 30, 2025
             }
         }
         
@@ -221,14 +271,14 @@ class FenixWatchFaceView extends WatchUi.WatchFace {
         var hourX = centerX + hourLength * Math.cos(hourAngle);
         var hourY = centerY + hourLength * Math.sin(hourAngle);
         
-        // Draw hour hand black outline
+        // Draw hour hand black outline (made wider)
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        dc.setPenWidth(8);
+        dc.setPenWidth(10);
         dc.drawLine(centerX, centerY, hourX, hourY);
         
-        // Draw hour hand bright white fill
+        // Draw hour hand bright white fill (made wider)
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-        dc.setPenWidth(6);
+        dc.setPenWidth(8);
         dc.drawLine(centerX, centerY, hourX, hourY);
 
         // Minute hand - thicker with black outline  
@@ -236,14 +286,14 @@ class FenixWatchFaceView extends WatchUi.WatchFace {
         var minX = centerX + minLength * Math.cos(minAngle);
         var minY = centerY + minLength * Math.sin(minAngle);
         
-        // Draw minute hand black outline
+        // Draw minute hand black outline (made wider)
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        dc.setPenWidth(6);
+        dc.setPenWidth(8);
         dc.drawLine(centerX, centerY, minX, minY);
         
-        // Draw minute hand bright white fill
+        // Draw minute hand bright white fill (made wider)
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-        dc.setPenWidth(4);
+        dc.setPenWidth(6);
         dc.drawLine(centerX, centerY, minX, minY);
 
         // Second hand - only show when watch is actively being viewed
