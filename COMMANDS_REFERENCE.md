@@ -1,15 +1,22 @@
-# Garmin Watch Face Development - Command Reference
+# Garmin Field Watch Face Development - Command Reference
 
 ## 🏗️ Build Commands
 
+### Current Version: v1.10.2
+
 ### Basic Build (for testing/simulator)
 ```bash
-"/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/monkeyc" -d fenix6pro -f monkey.jungle -o WatchFace.iq -y developer_key.der
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH" && "/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/monkeyc" -d fenix6pro -f monkey.jungle -o releases/FenixFieldWatchFace_v1.10.2.prg -y developer_key.der
 ```
 
 ### Full Build for Store Upload (IMPORTANT)
 ```bash
-export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH" && "/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/monkeyc" -e -d fenix6pro -f monkey.jungle -o FenixWatchFace_v1.0.iq -y developer_key.der
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH" && "/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/monkeyc" -e -f monkey.jungle -o releases/FenixFieldWatchFace_v1.10.2.iq -y developer_key.der
+```
+
+### Auto-Version Build (Dynamic)
+```bash
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH" && "/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/monkeyc" -e -d fenix6pro -f monkey.jungle -o releases/FenixFieldWatchFace_v$(grep version manifest.xml | sed 's/.*version="\([^"]*\)".*/\1/').iq -y developer_key.der
 ```
 
 **Key Flags:**
@@ -64,20 +71,23 @@ openssl pkcs8 -topk8 -inform PEM -outform DER -in developer_key.pem -out develop
 ```
 
 ### Install to Simulator
-1. Build with basic build command
-2. Open simulator
-3. Drag .iq file to simulator window
+1. Build with basic build command (creates .prg file)
+2. Open simulator: `"/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/connectiq" &`
+3. Run app: `"/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/monkeydo" releases/FenixFieldWatchFace_v1.10.2.prg fenix6pro`
+
+### Latest Fix (v1.10.2)
+**Day Display Issue Resolved**: Fixed "stuck on Monday" bug by changing from `FORMAT_MEDIUM` to `FORMAT_SHORT` to ensure numeric day values (1-7) instead of localized strings.
 
 ## 📝 Version Management
 
 ### Update Version in manifest.xml
 ```xml
-<iq:application ... version="1.0.0">
+<iq:application ... version="1.6.0">
 ```
 
 ### Naming Convention
-- v1.0: `FenixWatchFace_v1.0.iq`
-- v1.1: `FenixWatchFace_v1.1.iq`
+- v1.0: `FenixFieldWatchFace_v1.0.iq`
+- v1.10.2: `FenixFieldWatchFace_v1.10.2.iq` (current - day display fix)
 - Store uploads: Always use `-e` flag for full packaging
 
 ## 🔍 Debugging & Validation
@@ -137,7 +147,7 @@ ls -la *.iq
 
 ### One-Line Store Build
 ```bash
-export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH" && "/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/monkeyc" -e -d fenix6pro -f monkey.jungle -o FenixWatchFace_v$(grep version manifest.xml | sed 's/.*version="\([^"]*\)".*/\1/').iq -y developer_key.der
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH" && "/Users/carlintegrand.co.za/Library/Application Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-8.2.2-2025-07-17-cf29b22d5/bin/monkeyc" -e -d fenix6xpro -f monkey.jungle -o FenixFieldWatchFace_v$(grep version manifest.xml | sed 's/.*version="\([^"]*\)".*/\1/').iq -y developer_key.der
 ```
 
 ### Quick Test Build
@@ -156,4 +166,4 @@ export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH" && "/Users/carlintegrand.co
 
 ---
 
-*Last updated: July 30, 2025*
+*Last updated: August 13, 2025 - v1.10.2 day display fix - supports 115 devices*
